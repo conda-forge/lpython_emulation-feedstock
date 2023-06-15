@@ -1,5 +1,5 @@
 {% set name = "lpython_emulation" %}
-{% set version = "0.0.1.9" %}
+{% set version = "0.0.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lpython_emulation-{{ version }}.tar.gz
-  sha256: 2e08f190557f366d305d07b997c801436331377037a37d9d28d43e5a816d0367
+  sha256: c7a23d99075e2e559f4d4c4fa0cf9ed2d08234f86f0e3c84632ae6bcd8c0189b
 
 build:
   noarch: python
